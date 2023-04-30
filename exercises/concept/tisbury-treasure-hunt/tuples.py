@@ -14,7 +14,7 @@ def get_coordinate(record):
 def convert_coordinate(coordinate):
     """Split the given coordinate into tuple containing its individual components.
 
-    :param coordinate: str - a string map coordinate
+    :param coordinate: str - a string map coordinate.
     :return: tuple - the string coordinate split into its individual components.
     """
 
@@ -49,7 +49,7 @@ def clean_up(combined_record_group):
     :param combined_record_group: tuple - everything from both participants.
     :return: str - everything "cleaned", excess coordinates and information are removed.
 
-    The return statement should be a multi-lined string with items separated by newlines.
+    The return statement should be a multi-line string with items separated by newlines.
 
     (see HINTS.md for an example).
     """
